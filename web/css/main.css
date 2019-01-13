@@ -25,72 +25,105 @@ body {
 /* 遮罩层和登录弹窗 */
 /* 遮罩层 */
 #mask{
-    display: none;
-    position: fixed;
-    width: 100%;
-    height:100%;
-    top: 0;
-    left: 0;
-    background-color: #000;
-    opacity:0.7;/*其他，透明度50%*/
-    z-index:9;
+  display: none;
+  position: fixed;
+  width: 100%;
+  height:100%;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity:0.7;/*其他，透明度50%*/
+  z-index:9;
 }
 /* 遮罩层 */
 
 /* 登录表单 */
 .login-form{
-    display: none;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    width: 386px;
-    height: 288px;
-    margin: -144px 0 0 -193px;
-    z-index: 10;
-    background: #fff;
-		border-radius: 5px;
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 386px;
+  height: 288px;
+  margin: -144px 0 0 -193px;
+  z-index: 10;
+  background: #fff;
+	border-radius: 5px;
 }
 /* .login-form .login-bd{
     margin:30px 0 0 40px;
 } */
 .login-form .close{
-    float: right;
-    font-size: 14px;
-    font-weight: bold;
-    line-height: 1;
-    margin: 10px 10px 0 0;
-    color: #0e0e0e;
-    cursor: pointer;
+  float: right;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1;
+  margin: 10px 10px 0 0;
+  color: #0e0e0e;
+  cursor: pointer;
 }
 .login-form h3{
-    margin:20px 0 20px 40px;
-    font-size: 18px;
-    font-weight: normal!important;
-    color:#444;
-    line-height:38px;
+  margin:20px 0 20px 40px;
+  font-size: 18px;
+  font-weight: normal!important;
+  color:#444;
+  line-height:38px;
 }
-.login-form input{
-    display: block;
-    width:296px;
-    height:44px;
-    font-size: 16px;
-    text-indent: 10px;
-    background-color: #fafafa;
-    border:1px solid #f1f1f1;
-    box-shadow: 0 1px 1px #e6e6e6;
-    color:#999;
-    margin:0 0 16px 40px;
-		border-radius: 3px;
+#login_username {
+  display: block;
+  width:296px;
+  height:44px;
+  font-size: 16px;
+  text-indent: 10px;
+  border: 1px solid #bdc3c7;
+  margin:0 0 16px 40px;
+	border-radius: 4px;
+}
+#login_username:focus {
+	border-color: #29B6F6;
+}
+#login_password {
+  display: inline-block;
+  width:176px;
+  height:44px;
+  font-size: 16px;
+  text-indent: 10px;
+  border:1px solid #bdc3c7;
+  margin:0 0 16px 40px;
+	border-radius: 4px;
+}
+#login_password:focus {
+	border-color: #29B6F6;
+}
+#get_password {
+  display: inline-block;
+  width: 110px;
+  height: 44px;
+  font-size: 12px;
+	color: #2e82ff;
+	background-color: #fff;
+  border:1px solid #bdc3c7;
+  margin:0 0 16px 8px;
+	border-radius: 4px;
+}
+#get_password:hover {
+	cursor: pointer;
+	background-color: #eee;
 }
 .login-form .login-btn{
-    width: 296px;
-    height: 46px;
-    font-size: 16px;
-    color:#ffffff;
-    margin: 14px 0 0 40px;
-    background-color: #f25d8e;
-    border: none;
-		border-radius: 3px;
+  width: 296px;
+  height: 46px;
+  font-size: 16px;
+  color:#ffffff;
+  margin: 14px 0 0 40px;
+  background-color: #3582f8;
+	/* #f25d8e; */
+  border: none;
+	border-radius: 4px;
+}
+.login-form .login-btn:hover {
+	opacity:0.8;
+	cursor: pointer;
 }
 /* 登录表单 */
 
