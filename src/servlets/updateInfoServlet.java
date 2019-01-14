@@ -27,7 +27,7 @@ public class updateInfoServlet extends HttpServlet {
         );
         System.out.println(baseinfo.toString());
         tool.Query.setCustomerInfo(baseinfo);
-        response.sendRedirect("/MyResume/index.html");
+        response.sendRedirect("/MyResume/index.jsp");
         return;
     }
 

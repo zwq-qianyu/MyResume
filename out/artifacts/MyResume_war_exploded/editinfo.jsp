@@ -53,19 +53,19 @@
     </style>
 </head>
 <%
-    BasicInfo baseinfo =new BasicInfo();
-    baseinfo.setUser_id("15683646990");
-    baseinfo.setBlog("http://www.runtofuture.cn");
-    baseinfo.setNickname("钟伍全");
-    baseinfo.setAge(20);
-    baseinfo.setSex("男");
-    baseinfo.setHead_pic("img/head.jpg");
-    baseinfo.setEmail("1347638091@qq.com");
-    baseinfo.setWechat("wechat");
-    baseinfo.setQq("qq");
-    baseinfo.setId_name("Eric");
-    baseinfo.setGithub("https://github.com/zwq-qianyu");
-    Query.setCustomerInfo(baseinfo);
+//    BasicInfo baseinfo =new BasicInfo();
+//    baseinfo.setUser_id("15683646990");
+//    baseinfo.setBlog("http://www.runtofuture.cn");
+//    baseinfo.setNickname("钟伍全");
+//    baseinfo.setAge(20);
+//    baseinfo.setSex("男");
+//    baseinfo.setHead_pic("img/head.jpg");
+//    baseinfo.setEmail("1347638091@qq.com");
+//    baseinfo.setWechat("wechat");
+//    baseinfo.setQq("qq");
+//    baseinfo.setId_name("Eric");
+//    baseinfo.setGithub("https://github.com/zwq-qianyu");
+//    Query.setCustomerInfo(baseinfo);
 //    System.out.println(Query.getCusInfo("15683646990").toString());
     BasicInfo customerInfo=Query.getCusInfo("15683646990");
 %>
@@ -73,7 +73,7 @@
 
 <div class="head-page">
     <ul>
-        <li><a href="/MyResume/index.html">主页</a> </li>
+        <li><a href="/MyResume/index.jsp">主页</a> </li>
     </ul>
 </div>
 <div class="wrapper">
