@@ -17,15 +17,18 @@
     <div class="login-form">
         <div class="close" id="close-login" onclick="fadeOutLogin();">X</div>
         <h3>管理员登录</h3>
-      <form  action="editnfo.jsp" method="post">
+      <!--   action="editnfo.jsp" method="post" -->
+      <form action="/MyResume/login" method="get">
         <input type="text" name="username" placeholder="手机号" id="login_username">
         <input type="password" name="password" placeholder="验证码" id="login_password">
+        <!--<input type="button" value="获取验证码" id="get_password"  onclick="get_mobile_code();">-->
         <input type="button" value="获取验证码" id="get_password">
+        <!--<button class="login-btn" id="login" onclick="login();">登 录</button>-->
         <button class="login-btn" id="login" type="submit">登 录</button>
       </form>
 
     </div>
-    <!-- /登录表单 -->
+    <!-- 登录表单结束 -->
     <aside>
       <ul>
         <li>
@@ -51,7 +54,7 @@
           <div class="head-img">
             <img src="./img/head.jpg" alt="">
           </div>
-          <h1>钟伍全的简历</h1>
+          <h1><label id="my_nickname">钟伍全</label>的简历</h1>
           <h2>"以梦为笔，绘画天涯"</h2>
           <b>目前是一名 bytedancer 实习生</b>
         </div>
@@ -304,5 +307,6 @@
       <p>Made with <i class="fa fa-heart" aria-hidden="true" style="color: #d43f57;"></i> by Eric. 最后更新于2019年1月12日</p>
     </footer>
     <script type="text/javascript" src="./js/index.js"></script>
+    <script type="text/javascript" src="./js/jquery.js"></script>
   </body>
 </html>

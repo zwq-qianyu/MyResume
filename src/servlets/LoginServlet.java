@@ -12,38 +12,30 @@ import com.github.qcloudsms.SmsSingleSender;
 import com.github.qcloudsms.SmsSingleSenderResult;
 import com.github.qcloudsms.httpclient.HTTPException;
 import org.json.JSONException;
+import config.myConfig;
 
 @WebServlet("/login")
 public class LoginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        System.out.println(request.toString());
-        String passwd = request.getParameter("password");
-        String user_id = request.getParameter("username");
-        System.out.println("12345");
-        System.out.println(passwd);
-
-//        if(GCON.phonePassword.equals(user_id)){
-//            System.out.println("登陆成功");
-//            response.sendRedirect("/admin.html");
-//        }else{
-//            System.out.println("登陆失败");
-//            response.sendRedirect("/index.html");
-//        }
-
-//        PrintWriter out = response.getWriter();
-//        request.setCharacterEncoding("utf-8");
-//        response.setContentType("text/html;charset=utf-8");
-//        response.setCharacterEncoding("utf-8");
-//        String str = "{'code':'200','msg':'成功','success':'true'}";
-//        out.print(str);
-//        out.flush();
-//        out.close();
-
-        response.sendRedirect("/Myresume/editinfo.jsp");
-        return;
+        doGet(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        String passwd = request.getParameter("password");
+        String user_id = request.getParameter("username");
+        System.out.println(passwd);
+        PrintWriter out = response.getWriter();
+        if(myConfig.phonePassword.equals(passwd)){
+            System.out.println("登陆成功");
+            String result = "success";
+            out.println(result);
+            response.sendRedirect("/MyResume/editinfo.jsp");
+            return;
+        }else{
+            String result = "fail login";
+            out.println(result);
+//            response.sendRedirect("/MyResume/index.html");
+//            return;
+        }
     }
 }

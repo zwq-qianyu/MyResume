@@ -1,17 +1,17 @@
 <%--
   Created by IntelliJ IDEA.
-  User: 11
-  Date: 2018/5/10
-  Time: 12:24
+  User: ziyichen
+  Date: 2019-01-15
+  Time: 05:14
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page import="entity.BasicInfo" %>
 <%@ page import="tool.Query" %>
-<%--<%@ page contentType="text/html;charset=UTF-8" language="java" %>--%>
 <%@page pageEncoding="UTF-8" contentType="text/html; charset=UTF-8" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>简历信息修改</title>
+    <link rel="icon" href="./img/head.jpg">
     <style>
         body{
             background: #F9F8E8;
@@ -24,7 +24,7 @@
         }
         .left-page {
             width: 300px;
-            margin: 20px;
+            margin: 50px 0px 20px 50px;
         }
         .right-page {
             width: auto;
@@ -33,11 +33,21 @@
         input {
             border-radius: 5px;
             border: 1px solid #2e82ff;
-            height: 26px;
-            width: 200px;
+            height: 32px;
+            width: 240px;
             font-size: 14px;
             line-height: 20px;
             margin: 2px auto;
+        }
+        #headPicture {
+            width: 100px;
+        }
+        #ensure {
+            margin: 20px;
+        }
+        .edit_label {
+            display: inline-block;
+            width: 80px;
         }
 
     </style>
@@ -49,7 +59,7 @@
     baseinfo.setNickname("钟伍全");
     baseinfo.setAge(20);
     baseinfo.setSex("男");
-    baseinfo.setHead_pic("/img/1.png");
+    baseinfo.setHead_pic("img/head.jpg");
     baseinfo.setEmail("1347638091@qq.com");
     baseinfo.setWechat("wechat");
     baseinfo.setQq("qq");
@@ -68,7 +78,7 @@
 </div>
 <div class="wrapper">
     <div class="left-page">
-        <img id="pic1" src="<%=customerInfo.getHead_pic()%>" alt="gakki">
+        <img id="headPicture" src="<%=customerInfo.getHead_pic()%>" alt="我的头像">
         <p id="myname"><%=customerInfo.getNickname()%></p>
         <div class="myinfo">
             <p>年龄：<%=customerInfo.getAge()%></p>
@@ -83,53 +93,49 @@
         <form method="post" action="/MyResume/updateInfo">
                 <h1>基本信息</h1>
                 <p class="right_content">
-                    姓名：
+                    <label class="edit_label">姓名：</label>
                     <input type="text" name="nickname" value="<%=customerInfo.getNickname()%>">
                     <br>
-                    头像：
+
+                    <label class="edit_label">头像：</label>
                     <input type="text" name="head_pic" value="<%=customerInfo.getHead_pic()%>">
                     <a href="/front/upload.jsp" style="font-size:18px; background-color:yellow;">上传新头像</a>
                     <br>
-                    年龄：
+
+                    <label class="edit_label">年龄：</label>
                     <input type="text"  name="age" value="<%=customerInfo.getAge()%>">
                     <br>
-                    性别：
+
+                    <label class="edit_label">性别：</label>
                     <input type="text" name="sex" value="<%=customerInfo.getSex()%>">
                     <br>
 
-                    Email：
+                    <label class="edit_label">Email：</label>
                     <input type="text" name="email" value="<%=customerInfo.getEmail()%>">
                     <br>
-                    wechat：
+
+                    <label class="edit_label">微信：</label>
                     <input type="text" name="wechat" value="<%=customerInfo.getWechat()%>">
                     <br>
 
-                    qq：
+                    <label class="edit_label">qq：</label>
                     <input type="text"  name="qq" value="<%=customerInfo.getQq()%>">
                     <br>
-                    id_name:
+
+                    <label class="edit_label">常用ID：</label>
                     <input type="text"  name="id_name" value="<%=customerInfo.getId_name()%>">
                     <br>
 
-                    博客：
+                    <label class="edit_label">博客：</label>
                     <input type="text"  name="blog" value="<%=customerInfo.getBlog()%>">
                     <br>
-                    github:
+
+                    <label class="edit_label">github:</label>
                     <input type="text"  name="github" value="<%=customerInfo.getGithub()%>">
                     <br>
-
-
                 </p>
-                <%--<p class="right-title1">个人简历</p>--%>
-                <%--<textarea name="longInfo"><%=customerInfo.getLongInfo()%></textarea>--%>
-                <%--<p class="right-title1">教育经历</p>--%>
-                <%--<textarea name="learningExper"><%=customerInfo.getLearningExper()%></textarea>--%>
-                <%--<p class="right-title1">专利及论文</p>--%>
-                <%--<textarea name="papers"><%=customerInfo.getPapers()%></textarea>--%>
-                <%--<p class="right-title1">获奖经历</p>--%>
-                <%--<textarea name="awards"><%=customerInfo.getAwards()%></textarea>--%>
-                <br>
-                <br>
+
+
                 <input id="ensure" type="submit" value="确认修改">
         </form>
 
