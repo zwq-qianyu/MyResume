@@ -99,7 +99,7 @@
 
                     <label class="edit_label">头像：</label>
                     <input type="text" name="head_pic" value="<%=customerInfo.getHead_pic()%>">
-                    <a href="/front/upload.jsp" style="font-size:18px; background-color:yellow;">上传新头像</a>
+                    <a href="/MyResume/upload.jsp?user_id=<%=customerInfo.getUser_id()%>" style="font-size:18px; background-color:yellow;">上传新头像</a>
                     <br>
 
                     <label class="edit_label">年龄：</label>

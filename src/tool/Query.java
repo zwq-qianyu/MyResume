@@ -29,6 +29,7 @@ public class Query {
             System.out.println("resultSet:"+resultSet);
             while (resultSet.next()) {
                 BasicInfo cusinfo = new BasicInfo(
+                        resultSet.getString(1),
                         resultSet.getString(2),
                         resultSet.getString(3),
                         parseInt(resultSet.getString(4)),
@@ -91,6 +92,26 @@ public class Query {
             statement.execute("DELETE from baseinfo where user_id='"+user_id+"'");
 //            statement.close();
 //            connection.close();
+        } catch (Exception exception) {
+            exception.printStackTrace();
+        }
+    }
+
+
+    // 更新头像的url
+    public static void updateHeadImg(String user_id, String img_url){
+        Connection connection = null;
+        ResultSet resultSet = null;
+
+        try {
+            connection = DataBase.getConnection();
+            Statement statement=connection.createStatement();
+            System.out.println("开始修改。。。。。");
+            String sql = "update baseInfo set head_pic='"+img_url +"' where user_id="+user_id;
+            System.out.println("sql:"+sql);
+            statement.execute(sql);
+//            statement.execute("insert into baseInfo values('15683646990','钟伍全','男',20,'','1347638091@qq.com','wechat','1347638091','Eric','blog','https://github.com/zwq-qianyu')");
+            System.out.println("修改成功。。。。。");
         } catch (Exception exception) {
             exception.printStackTrace();
         }
