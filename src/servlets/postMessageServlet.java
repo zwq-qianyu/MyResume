@@ -21,6 +21,7 @@ public class postMessageServlet extends HttpServlet {
         String account = "C68463862"; //查看用户名是登录用户中心->验证码短信->产品总览->APIID
         String password = "f704438ed9910f86e067444f48c143ec";  //查看密码请登录用户中心->验证码短信->产品总览->APIKEY
         String user_id = request.getParameter("user_id");
+        System.out.println("phone:"+user_id);
         myConfig.phonePassword=String.valueOf(mobile_code);
         String content = new String("您的验证码是：" + mobile_code + "。请不要把验证码泄露给其他人。");
         System.out.println(content);

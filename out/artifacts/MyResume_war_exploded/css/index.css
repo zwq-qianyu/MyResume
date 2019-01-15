@@ -20,6 +20,9 @@ body {
 	background: #eee;
 	font-family: 'Helvetica Neue',Helvetica,'Lucida Grande',Arial,'Hiragino Sans GB',微软雅黑,'WenQuanYi Micro Hei',STHeiti,SimSun,sans-serif;
 	/* min-width: 1080px; */
+	background-image: url("../img/bg/edit_inner.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
 
 /* 遮罩层和登录弹窗 */

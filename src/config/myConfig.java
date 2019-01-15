@@ -29,5 +29,5 @@ public class myConfig {
     public static final String URL = "jdbc:mysql://localhost:3306/resume?useSSL=false&useUnicode=true&charaterEncoding=UTF";
 
     // 用来暂存手机验证码
-    public static String phonePassword="123456";
+    public static String phonePassword="";
 }

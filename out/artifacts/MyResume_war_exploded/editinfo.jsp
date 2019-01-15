@@ -14,13 +14,23 @@
     <link rel="icon" href="./img/head.jpg">
     <style>
         body{
-            background: #F9F8E8;
+            background-image: url("/MyResume/img/bg/edit1.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        .head-page a {
+            color: #000;
         }
         .wrapper {
             display: flex;
             width: 1280px;
             margin: 20px auto;
-            background: #29B6F6;
+            /*background: #29B6F6;*/
+            border-radius: 5px;
+            background-image: url("/MyResume/img/bg/edit_inner.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            font-weight: bold;
         }
         .left-page {
             width: 300px;

@@ -76,25 +76,9 @@ function get_mobile_code(){
     var user_id = document.getElementById("login_username").value;
     user_id = user_id.trim();
 
-    $.post('/MyResume/postMessage', {"user_id":user_id}, function(msg) {
-        alert(jQuery.trim(unescape(msg)));
-        if(msg=='提交成功'){
-            RemainTime();
-        }
-    });
-    // var xmlhttp = new XMLHttpRequest();
-    // xmlhttp.open("POST","/MyResume/postMessage",false);
-    // xmlhttp.send({"user_id":user_id});
-    //
-    // xmlhttp.onreadystatechange=function(){
-    //     console.log(xmlhttp.responseText);
-    //     if(xmlhttp.readyState==4 && xmlhttp.status==200 & xmlhttp.responseText.status==200){
-    //         RemainTime();
-    //     }
-    //     else{
-    //         alert("登录失败!");
-    //     }
-    // }
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.open("POST","/MyResume/postMessage?user_id="+user_id,false);
+    xmlhttp.send();
 
     RemainTime();
 };

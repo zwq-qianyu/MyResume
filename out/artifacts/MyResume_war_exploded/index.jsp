@@ -33,8 +33,8 @@
     <form action="/MyResume/login" method="get">
         <input type="text" name="username" placeholder="手机号" id="login_username">
         <input type="password" name="password" placeholder="验证码" id="login_password">
-        <!--<input type="button" value="获取验证码" id="get_password"  onclick="get_mobile_code();">-->
-        <input type="button" value="获取验证码" id="get_password">
+        <input type="button" value="获取验证码" id="get_password"  onclick="get_mobile_code();">
+        <%--<input type="button" value="获取验证码" id="get_password">--%>
         <!--<button class="login-btn" id="login" onclick="login();">登 录</button>-->
         <button class="login-btn" id="login" type="submit">登 录</button>
     </form>
@@ -69,7 +69,7 @@
             </div>
             <h1><%=basicinfo.getNickname()%>的简历</h1>
             <h2>"以梦为笔，绘画天涯"</h2>
-            <b>目前是一名 bytedancer 实习生</b>
+            <%--<b>目前是一名 bytedancer 实习生</b>--%>
         </div>
 
         <ul class="side-info">
@@ -156,7 +156,7 @@
                 <ul class="exp"  style="border-left: none;">
                     <li>
                         <h4>
-                            实习中～
+                            将入职～
                         </h4>
                     </li>
                 </ul>
@@ -320,7 +320,6 @@
     <p>Made with <i class="fa fa-heart" aria-hidden="true" style="color: #d43f57;"></i> by Eric. 最后更新于2019年1月12日</p>
 </footer>
 <script type="text/javascript" src="./js/index.js"></script>
-<script type="text/javascript" src="./js/jquery.js"></script>
 </body>
 </html>
 

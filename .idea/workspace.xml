@@ -7,18 +7,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8236cb6-5ec1-4488-9424-e2d43ca0a73e" name="Default Changelist" comment="完成了手机登录的操作">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_fileupload_1_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servlets/UploadServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/upload.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/bg/edit.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/bg/edit1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/bg/edit_inner.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyResume.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyResume.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyResume_war_exploded/WEB-INF/classes/tool/Query.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyResume_war_exploded/WEB-INF/classes/tool/Query.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyResume_war_exploded/WEB-INF/classes/tool/init.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyResume_war_exploded/WEB-INF/classes/tool/init.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyResume_war_exploded/WEB-INF/classes/config/myConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyResume_war_exploded/WEB-INF/classes/config/myConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyResume_war_exploded/WEB-INF/classes/servlets/postMessageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyResume_war_exploded/WEB-INF/classes/servlets/postMessageServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/MyResume_war_exploded/editinfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyResume_war_exploded/editinfo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyResume/tool/Query.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyResume/tool/Query.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyResume/tool/init.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyResume/tool/init.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tool/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tool/Query.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyResume_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyResume_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyResume_war_exploded/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyResume_war_exploded/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyResume_war_exploded/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyResume/config/myConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyResume/config/myConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyResume/servlets/postMessageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyResume/servlets/postMessageServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/myConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/myConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlets/postMessageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlets/postMessageServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/editinfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/editinfo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/jquery.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,11 +51,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/editinfo.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-610">
+              <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/upload.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+            <state relative-caret-position="315">
+              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -91,18 +126,19 @@
         <option value="$PROJECT_DIR$/src/servlets/getBasicInfoServlet.java" />
         <option value="$PROJECT_DIR$/web/editnfo.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/servlets/postMessageServlet.java" />
-        <option value="$PROJECT_DIR$/src/config/myConfig.java" />
         <option value="$PROJECT_DIR$/src/servlets/LoginServlet.java" />
         <option value="$PROJECT_DIR$/web/a.jsp" />
         <option value="$PROJECT_DIR$/web/index.html" />
-        <option value="$PROJECT_DIR$/web/js/index.js" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/servlets/updateInfoServlet.java" />
-        <option value="$PROJECT_DIR$/web/editinfo.jsp" />
         <option value="$PROJECT_DIR$/src/tool/Query.java" />
         <option value="$PROJECT_DIR$/src/servlets/UploadServlet.java" />
         <option value="$PROJECT_DIR$/web/upload.jsp" />
+        <option value="$PROJECT_DIR$/src/config/myConfig.java" />
+        <option value="$PROJECT_DIR$/src/servlets/postMessageServlet.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/js/index.js" />
+        <option value="$PROJECT_DIR$/web/editinfo.jsp" />
+        <option value="$PROJECT_DIR$/web/css/index.css" />
       </list>
     </option>
   </component>
@@ -137,6 +173,11 @@
             <path>
               <item name="MyResume" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyResume" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyResume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyResume" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -150,7 +191,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547508290763" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547519402575" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -158,6 +199,11 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/img/bg" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -272,12 +318,12 @@
       <workItem from="1547428503890" duration="3742000" />
       <workItem from="1547432949063" duration="1678000" />
       <workItem from="1547434877242" duration="28943000" />
-      <workItem from="1547502159104" duration="5569000" />
+      <workItem from="1547502159104" duration="12020000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58732000" />
+    <option name="totallyTimeSpent" value="65183000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -555,28 +601,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tool/init.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="63" lean-forward="true" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/editnfo.jsp" />
-    <entry file="file://$PROJECT_DIR$/web/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="42" column="21" lean-forward="true" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/myConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/a.jsp" />
     <entry file="file://$PROJECT_DIR$/web/index.html" />
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
@@ -586,86 +611,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="n#!!block;n#fadeModal#0" />
-            <element signature="n#!!block;n#fadeOutLogin#0" />
-            <element signature="n#!!block;n#login#0" />
-            <element signature="n#!!block;n#get_mobile_code#0" />
-            <element signature="n#!!block;n#RemainTime#0" />
-            <element signature="n#!!block;n#tologin#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlets/postMessageServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlets/getBasicInfoServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlets/updateInfoServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="53" lean-forward="true" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="794">
-          <caret line="67" column="56" selection-start-line="67" selection-start-column="56" selection-end-line="67" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlets/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/artifacts/MyResume_war_exploded/upload/屏幕快照 2019-01-14 上午3.39.00.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/out/artifacts/MyResume_war_exploded/upload/阿里前端.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlets/UploadServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/servlets/getBasicInfoServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="100" column="17" lean-forward="true" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
+        <state relative-caret-position="225">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2405#2435#1" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tool/init.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tool/Query.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="109" column="94" selection-start-line="109" selection-start-column="94" selection-end-line="109" selection-end-column="94" />
+        <state relative-caret-position="387">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlets/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -674,25 +656,87 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/entity/BasicInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="1672">
           <caret line="160" column="31" selection-start-line="160" selection-start-column="31" selection-end-line="160" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/editinfo.jsp">
+    <entry file="file://$PROJECT_DIR$/src/config/myConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        <state relative-caret-position="332">
+          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlets/UploadServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="80" column="28" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
           <folding>
-            <element signature="n#style#0;n#a#0;n#p#0;n#form#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlets/updateInfoServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlets/postMessageServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="80" column="17" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!block;n#fadeModal#0" />
+            <element signature="n#!!block;n#fadeOutLogin#0" />
+            <element signature="n#!!block;n#login#0" />
+            <element signature="n#!!block;n#RemainTime#0" />
+            <element signature="n#!!block;n#tologin#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/upload.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+        <state relative-caret-position="315">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-610">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/editinfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
         </state>
       </provider>
     </entry>
