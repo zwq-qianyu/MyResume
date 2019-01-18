@@ -25,7 +25,7 @@ public class LoginServlet extends HttpServlet {
         String user_id = request.getParameter("username");
         System.out.println(passwd);
         PrintWriter out = response.getWriter();
-        if(myConfig.phonePassword.equals(passwd)){
+        if((passwd!="") && (myConfig.phonePassword.equals(passwd))){
             System.out.println("登陆成功");
             String result = "success";
             out.println(result);
